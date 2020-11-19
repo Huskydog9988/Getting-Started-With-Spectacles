@@ -26,7 +26,7 @@ The purpose of this guide is to help you understand how Spectacles works as a wh
 
 ### Prerequisite Software
 
-To make this entire process easier, and more managable, [Docker](https://docker.com/) is going to be used to containerize all of the software built and used later. The following general steps will install all of the software you are going to need to get started.
+To make this entire process easier, and more managable, [Docker](https://docker.com/) is going to be used to containerize all of the software used. The following general steps will install all of the software you are going to need to get started.
 
 1. Visit [Docker's get started](https://www.docker.com/get-started) page and install the Docker Desktop app.
 2. [Install Docker Compose](https://docs.docker.com/compose/install/) for your system.
