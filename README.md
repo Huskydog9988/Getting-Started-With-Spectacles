@@ -20,7 +20,9 @@ Spectacles is a distributed Discord API wrapper through the use of different app
 
 ### What to Expect
 
-You should expect very little code from this guide. The little code given will be in JS. If you don't know JS, this wrapper has libraries in many differant langs so don't worry about not knowing it. You should also expect very little explination as to what every system outside of Spectacles is doing. For example, you will be using Docker and Docker Compose, you aren't expected to know every little tibit, but it is expect that you understand in general how they work. Another example is RabbitMQ, since it isn't a service you will be directly interacting with, it isn't expected that you know anything about. The purpose of this guide is to help you understand how Spectacles works as a whole, not to learn every system involved. If you wish to learn more about the other systems, there are far beter guides out there than what I could write.
+You should expect very little code from this guide. The little code given will be in JS. If you don't know JS, this wrapper has libraries in many differant langs so don't worry about not knowing it.
+You should also expect very little explination as to what every system outside of Spectacles is doing. For example, you will be using Docker and Docker Compose. You aren't expected to know every little tibit, but it is expect that you understand in general how they work. Another example is RabbitMQ, since it isn't a service you will be directly interacting with, it isn't expected that you know anything about.
+The purpose of this guide is to help you understand how Spectacles works as a whole, not to learn every system involved with it involved. If you wish to learn more about the these other systems, there are far better guides out there than what I could ever write.
 
 ### Prerequisite Software
 
@@ -31,7 +33,8 @@ To make this entire process easier, and more managable, [Docker](https://docker.
 
 ### Getting Started
 
-To make things simple, a docker compose file (`docker-compose.yml`) will be used to help manage all of the docker contianers. The following file is a compete example of a what software at a minimuin is required for this entire system to work.
+To make things simple, a docker compose file (`docker-compose.yml`) will be used to help manage all of the docker contianers.
+The following file is a compete example of a what software at a minimuin is required for this entire system to work.
 
 ```yaml
 version: "3.7"
@@ -107,5 +110,6 @@ services:
     # restart: unless-stopped
 ```
 
-If you are wondering what other events you can subscribe to besides the ones listed in the gateway enviroment look at the Discord dev docs. `restart` is commented out because that line isn't needed outside of production. <br>
+If you are wondering what other events you can subscribe to besides the ones listed in the gateway enviroment look at the Discord dev docs.
+`restart` is commented out because that line isn't needed outside of production. <br>
 (Credit to the org Navel Base for making this compose file [here](https://github.com/Naval-Base/yuudachi/))
