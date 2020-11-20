@@ -1,4 +1,4 @@
-<svg width="90" height="90"> <img src="https://raw.githubusercontent.com/Huskydog9988/Getting-Started-With-Spectacles/main/spectacles.svg" alt="Spectacles"></svg>
+<a href="https://spec.pleb.xyz/"><img src="https://raw.githubusercontent.com/Huskydog9988/Getting-Started-With-Spectacles/main/spectacles.svg" alt="Spectacles"></a>
 
 # Getting Started With Spectacles
 
