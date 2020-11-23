@@ -37,8 +37,8 @@ The only reasons you shouldn't use this libray is if every single piece of this 
 You should expect very little code from this guide. The little code given will be in JS. If you don't know JS, this wrapper has libraries in many differant langs so don't worry about not knowing it.
 You should also expect very little explination as to what every system outside of Spectacles is doing.
 For example, you will be using Docker and Docker Compose. You aren't expected to know every little tibit, but it is expect that you understand in general how they work.
-Another example is RabbitMQ, since it isn't a service you will be directly interacting with, it isn't expected that you know anything about.
-The purpose of this guide is to help you understand how Spectacles works as a whole, not to learn every system involved with it involved.
+Another example is RabbitMQ, since it isn't a service you will be directly interacting with, it isn't expected that you know anything, but you should know the basics.
+The purpose of this guide is to help you understand how Spectacles as a whole works, not to teach you every system involved with it.
 If you wish to learn more about the these other systems, there are far better guides out there than what I could ever write.
 
 ### Prerequisite Software
